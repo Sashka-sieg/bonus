@@ -9,8 +9,8 @@ public class Main {
             bonus = replenishmentAmount / 100;
             balance = customerAccount +replenishmentAmount + bonus;
         }
-            System.out.println(bonus);
-            System.out.println(balance);
+            System.out.println(bonus + "руб");
+            System.out.println(balance + "руб");
     }
 
     }

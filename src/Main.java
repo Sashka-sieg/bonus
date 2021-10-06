@@ -9,8 +9,8 @@ public class Main {
             bonus = replenishmentAmount / 100;
             overallBalance = customerAccount +replenishmentAmount + bonus;
         }
-            System.out.println(bonus + "руб");
-            System.out.println(overallBalance + "руб");
+            System.out.println( "Наш бонусный баланс" + bonus + "руб");
+            System.out.println("Баланс лицевого счета" + overallBalance + "руб");
     }
 
     }

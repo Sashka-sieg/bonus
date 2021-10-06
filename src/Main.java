@@ -4,13 +4,13 @@ public class Main {
         int replenishmentAmount = 3000;
         int bonus = 0;
         int bonusAmount = 1000;
-        int balance = 0;
+        int overallBalance = 0;
         if (replenishmentAmount >= bonusAmount) {
             bonus = replenishmentAmount / 100;
-            balance = customerAccount +replenishmentAmount + bonus;
+            overallBalance = customerAccount +replenishmentAmount + bonus;
         }
             System.out.println(bonus + "руб");
-            System.out.println(balance + "руб");
+            System.out.println(overallBalance + "руб");
     }
 
     }
